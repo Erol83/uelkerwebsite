@@ -1,0 +1,74 @@
+select {
+    width:100%;
+    border: 1px solid #110c0c;
+    padding:.1em 0em .3em 3em;
+    box-shadow: 0 0px 0px 0 rgba(190, 13, 13, 0.026);
+    background-color:rgb(52, 35, 3);
+    background-position: right;
+    background-repeat: no-repeat;
+    color: #f5f1f1;
+  }
+  
+  
+  
+  
+  #container {
+    margin-left: auto;
+    margin-right:auto;
+    width: 950px;
+    }
+    #header {
+    width: 950px;
+    height: 200px;
+    }
+    /* --- Kommentar ---
+    die Box #navigation wird vom nachfolgenden Element (#content) umflossen ---- */
+    #navigation {
+    width: 200px;
+    float: left;
+    }
+    
+    #content {
+    width: 750px;
+    min-height: 800px;
+    margin-left: 200px;
+    }
+    
+    #footer {
+    width: 950px;
+    height: 80px;
+    }
+    
+  #container h1{
+    
+    position: relative; 
+    top: 1em; 
+    left: 1em; 
+   
+    color: #ffffff;}
+  
+    #container {background-color: #1a3300; }
+    #header { 
+      
+        background-color: #1a3300
+  
+        ;
+        background-position: center;
+        background-size: cover; 
+     
+       
+        align-items: center;
+     
+   }
+    #navigation {background-color:#c37272;}
+   
+   
+   
+   
+    #content {background-color:#5cb34f;
+    
+    }
+  
+  
+    #footer {background-color:#2c054c;
+    }
